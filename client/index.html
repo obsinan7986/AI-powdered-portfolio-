@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Obsa Tesfaye Demesa | Full-Stack Developer</title>
+    <meta name="description" content="Full-Stack Developer (MERN) and Computer Science student at Haramaya University. Building scalable web applications with React, Node.js, Express, and MongoDB." />
+
+    <!-- Google Fonts: Poppins (headings) + Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!--
+      Theme init script – runs synchronously before any paint so there is
+      ZERO flash of wrong theme (FOWT). Reads localStorage first, then
+      falls back to the OS prefers-color-scheme.
+    -->
+    <script>
+      (function () {
+        const saved = localStorage.getItem('portfolio-theme');
+        const savedAccent = localStorage.getItem('portfolio-accent');
+
+        // Determine dark/light
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = saved || (prefersDark ? 'dark' : 'light');
+
+        // Determine accent color
+        const accent = savedAccent || 'blue';
+
+        // Apply both to <html> immediately
+        document.documentElement.setAttribute('data-theme', theme);
+        document.documentElement.setAttribute('data-accent', accent);
+
+        // Also apply Tailwind dark class for any Tailwind dark: utilities
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

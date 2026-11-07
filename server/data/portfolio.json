@@ -1,0 +1,205 @@
+{
+  "owner": {
+    "name": "Obsa Tesfaye Demesa",
+    "title": "Full-Stack Developer (MERN) | Computer Science Student",
+    "taglines": [
+      "Full-Stack Developer",
+      "MERN Stack Engineer",
+      "Computer Science Student",
+      "Backend Developer",
+      "UI/UX Enthusiast"
+    ],
+    "bio": "I'm a passionate Full-Stack Developer and 4th-year Computer Science student at Haramaya University. I specialize in building robust, scalable web applications using the MERN stack. I love turning complex problems into clean, user-friendly solutions.",
+    "email": "obsatesfaye6370@gmail.com",
+    "phone": "+251 931 597 986",
+    "location": "Ethiopia",
+    "github": "https://github.com/obsinan7986",
+    "linkedin": "https://www.linkedin.com/in/obsa-tesfaye-demesa-67a41a363",
+    "telegram": "https://t.me/@Obsa_dev",
+    "profileImage": "/images/profile.jpg",
+    "cvPath": "/Obsa_Tesfaye_CV.pdf"
+  },
+  "education": [
+    {
+      "degree": "BSc Computer Science",
+      "institution": "Haramaya University",
+      "faculty": "College of Computing and Informatics",
+      "startYear": 2024,
+      "endYear": 2027,
+      "status": "In Progress",
+      "year": "4th Year"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full-Stack Developer Intern",
+      "focus": "Backend Focus",
+      "company": "OICT Training & Consultancy Solutions PLC",
+      "location": "Addis Ababa, Ethiopia",
+      "startDate": "July 2026",
+      "endDate": "August 2026",
+      "type": "Internship",
+      "highlights": [
+        "Designed and implemented RESTful APIs using Node.js and Express for the OICT TechStore e-commerce platform, handling product listings, cart management, and order processing.",
+        "Built and structured a MongoDB database with Mongoose schemas and relationships for users, products, orders, and categories.",
+        "Implemented JWT-based authentication and authorization with bcrypt password hashing, securing all protected routes.",
+        "Deployed the application to a cloud server, configured environment variables, and set up a production-ready Express server."
+      ]
+    }
+  ],
+  "skills": {
+    "frontend": [
+      { "name": "HTML5",             "level": 95 },
+      { "name": "CSS3",              "level": 90 },
+      { "name": "JavaScript (ES6+)", "level": 85 },
+      { "name": "React",             "level": 80 }
+    ],
+    "backend": [
+      { "name": "Node.js",    "level": 80 },
+      { "name": "Express",    "level": 78 },
+      { "name": "REST APIs",  "level": 82 }
+    ],
+    "database": [
+      { "name": "MongoDB",  "level": 78 },
+      { "name": "Mongoose", "level": 75 },
+      { "name": "SQL",      "level": 65 }
+    ],
+    "design": [
+      { "name": "Adobe Photoshop",   "level": 90 },
+      { "name": "Adobe Illustrator", "level": 80 }
+    ],
+    "tools": [
+      { "name": "Git",     "level": 80 },
+      { "name": "GitHub",  "level": 80 },
+      { "name": "VS Code", "level": 90 },
+      { "name": "Postman", "level": 75 }
+    ]
+  },
+  "projects": [
+    {
+      "title": "OICT TechStore",
+      "slug": "oict-techstore",
+      "description": "A full-stack e-commerce style web application built during my internship at OICT. Features product browsing, cart management, user authentication, and an admin panel for managing inventory and orders.",
+      "category": "fullstack",
+      "techStack": ["Node.js", "Express", "MongoDB", "React", "JWT", "Bcrypt"],
+      "liveUrl": "https://e-commerce-techstore.vercel.app/",
+      "githubUrl": "https://github.com/obsinan7986/E_Commerce-Techstore",
+      "image": "/images/projects/oict.png",
+      "featured": true
+    },
+    {
+      "title": "Online Examination System",
+      "slug": "online-examination-system",
+      "description": "A web-based examination platform that allows instructors to create and manage exams and students to take timed online tests with auto-grading and results.",
+      "category": "fullstack",
+      "techStack": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "MongoDB"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/exam-system.png",
+      "featured": true
+    },
+    {
+      "title": "Student Registration System",
+      "slug": "student-registration-system",
+      "description": "A student registration management system that handles enrollment, course selection, and student record management for academic institutions.",
+      "category": "fullstack",
+      "techStack": ["React", "Node.js", "Express", "MongoDB"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/student-registration.png",
+      "featured": false
+    },
+    {
+      "title": "Student Management System",
+      "slug": "student-management-system",
+      "description": "A comprehensive student management dashboard for tracking attendance, grades, performance reports, and academic records.",
+      "category": "fullstack",
+      "techStack": ["React", "Node.js", "Express", "MongoDB"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/sms.png",
+      "featured": false
+    },
+
+    {
+      "title": "Waldaa Angafa Wareegamtoota Qulquluu Giyoorgisii Platform",
+      "slug": "wqg-church-platform",
+      "description": "A comprehensive MERN stack platform for managing church members, tracking secure mobile payment submissions, organizing multilingual programs, and streaming gospel media.",
+      "category": "fullstack",
+      "techStack": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+      "liveUrl": "https://wqg-church-platform-7rs166ffdq-obsa1.vercel.app",
+      "githubUrl": "https://github.com/obsinan7986/wqg-church-platform",
+      "image": "/images/projects/wqg-church.png",
+      "featured": true
+    },
+    {
+      "title": "Course Registration System",
+      "slug": "course-registration-system",
+      "description": "A course registration portal allowing students to browse available courses, register for classes, and manage their academic schedules.",
+      "category": "fullstack",
+      "techStack": ["HTML", "CSS", "JavaScript", "SQL"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/course-registration.png",
+      "featured": false
+    },
+    {
+      "title": "Graphic Design Projects",
+      "slug": "graphic-design-projects",
+      "description": "A collection of brand identity, poster, and digital illustration projects created using Adobe Photoshop and Adobe Illustrator.",
+      "category": "design",
+      "techStack": ["Adobe Photoshop", "Adobe Illustrator"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/graphic-design.png",
+      "featured": false
+    },
+    {
+      "title": "Developer Portfolio",
+      "slug": "developer-portfolio",
+      "description": "This portfolio — a production-ready MERN application with dark/light themes, AI chat widget, admin dashboard, and full REST API.",
+      "category": "fullstack",
+      "techStack": ["React", "Vite", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Framer Motion"],
+      "liveUrl": "https://obsa-portfolio.vercel.app",
+      "githubUrl": "https://github.com/obsinan7986/portfolio",
+      "image": "/images/projects/portfolio.png",
+      "featured": true
+    }
+  ],
+  "services": [
+    {
+      "title": "Web Development",
+      "description": "Full-stack web applications built with React, Node.js, Express, and MongoDB. From REST APIs to complete MERN solutions.",
+      "icon": "code"
+    },
+    {
+      "title": "Front-End Design",
+      "description": "Clean, responsive, and accessible UI with React and Tailwind CSS. Pixel-perfect implementations with smooth animations.",
+      "icon": "layout"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "Brand identity, logos, posters, and digital illustrations using Adobe Photoshop and Illustrator.",
+      "icon": "pen-tool"
+    },
+    {
+      "title": "UI Layout Design",
+      "description": "Wireframes, mockups, and UI component systems that are both visually compelling and developer-friendly.",
+      "icon": "monitor"
+    },
+    {
+      "title": "Technical Consulting",
+      "description": "Architecture advice, code reviews, tech stack selection, and debugging support for your web projects.",
+      "icon": "message-circle"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "OICT Supervisor",
+      "role": "Technical Lead, OICT Training & Consultancy Solutions PLC",
+      "text": "Obsa demonstrated exceptional technical ability during his internship. He picked up our existing codebase quickly, contributed meaningful features, and delivered the TechStore API ahead of schedule. A reliable and driven developer.",
+      "avatar": "/images/testimonials/supervisor.jpg",
+      "placeholder": true
+    }
+  ]
+}

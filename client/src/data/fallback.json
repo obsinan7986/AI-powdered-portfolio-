@@ -1,0 +1,136 @@
+{
+  "projects": [
+    {
+      "_id": "local-1",
+      "title": "OICT TechStore",
+      "slug": "oict-techstore",
+      "description": "A full-stack e-commerce style web application built during my internship at OICT. Features product browsing, cart management, user authentication, and an admin panel for managing inventory and orders.",
+      "category": "fullstack",
+      "techStack": ["Node.js", "Express", "MongoDB", "React", "JWT"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/oict.png",
+      "featured": true
+    },
+    {
+      "_id": "local-2",
+      "title": "Online Examination System",
+      "slug": "online-examination-system",
+      "description": "A web-based examination platform that allows instructors to create and manage exams and students to take timed online tests with auto-grading and results.",
+      "category": "fullstack",
+      "techStack": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "MongoDB"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/exam-system.png",
+      "featured": true
+    },
+    {
+      "_id": "local-3",
+      "title": "Student Registration System",
+      "slug": "student-registration-system",
+      "description": "A student registration management system that handles enrollment, course selection, and student record management for academic institutions.",
+      "category": "fullstack",
+      "techStack": ["React", "Node.js", "Express", "MongoDB"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/student-registration.png",
+      "featured": false
+    },
+    {
+      "_id": "local-4",
+      "title": "Student Management System",
+      "slug": "student-management-system",
+      "description": "A comprehensive student management dashboard for tracking attendance, grades, performance reports, and academic records.",
+      "category": "fullstack",
+      "techStack": ["React", "Node.js", "Express", "MongoDB"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/sms.png",
+      "featured": false
+    },
+    {
+      "_id": "local-5",
+      "title": "Waldaa Angafa Wareegamtoota Qulquluu Giyoorgisii Platform",
+      "slug": "wqg-church-platform",
+      "description": "A comprehensive MERN stack platform for managing church members, tracking secure mobile payment submissions, organizing multilingual programs, and streaming gospel media.",
+      "category": "fullstack",
+      "techStack": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+      "liveUrl": "https://wqg-church-platform-7rs166ffdq-obsa1.vercel.app",
+      "githubUrl": "https://github.com/obsinan7986/wqg-church-platform",
+      "image": "/images/projects/wqg-church.png",
+      "featured": true
+    },
+    {
+      "_id": "local-6",
+      "title": "Course Registration System",
+      "slug": "course-registration-system",
+      "description": "A course registration portal allowing students to browse available courses, register for classes, and manage their academic schedules.",
+      "category": "fullstack",
+      "techStack": ["HTML", "CSS", "JavaScript", "SQL"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/course-registration.png",
+      "featured": false
+    },
+    {
+      "_id": "local-7",
+      "title": "Graphic Design Projects",
+      "slug": "graphic-design-projects",
+      "description": "A collection of brand identity, poster, and digital illustration projects created using Adobe Photoshop and Adobe Illustrator.",
+      "category": "design",
+      "techStack": ["Adobe Photoshop", "Adobe Illustrator"],
+      "liveUrl": "https://github.com/obsinan7986",
+      "githubUrl": "https://github.com/obsinan7986",
+      "image": "/images/projects/graphic-design.png",
+      "featured": false
+    },
+    {
+      "_id": "local-8",
+      "title": "Developer Portfolio",
+      "slug": "developer-portfolio",
+      "description": "This portfolio — a production-ready MERN application with dark/light themes, AI chat widget, admin dashboard, and full REST API.",
+      "category": "fullstack",
+      "techStack": ["React", "Vite", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+      "liveUrl": "https://github.com/obsinan7986/portfolio",
+      "githubUrl": "https://github.com/obsinan7986/portfolio",
+      "image": "/images/projects/portfolio.png",
+      "featured": true
+    }
+  ],
+  "experience": [
+    {
+      "_id": "local-e1",
+      "title": "Full-Stack Developer Intern",
+      "focus": "Backend Focus",
+      "company": "OICT Training & Consultancy Solutions PLC",
+      "location": "Addis Ababa, Ethiopia",
+      "startDate": "July 2026",
+      "endDate": "August 2026",
+      "type": "Internship",
+      "highlights": [
+        "Designed and implemented RESTful APIs using Node.js and Express for the OICT TechStore e-commerce platform, handling product listings, cart management, and order processing.",
+        "Built and structured a MongoDB database with Mongoose schemas and relationships for users, products, orders, and categories.",
+        "Implemented JWT-based authentication and authorization with bcrypt password hashing, securing all protected routes.",
+        "Deployed the application to a cloud server, configured environment variables, and set up a production-ready Express server."
+      ]
+    }
+  ],
+  "skills": [
+    { "_id": "s1", "name": "HTML5",              "category": "frontend", "level": 95, "order": 0 },
+    { "_id": "s2", "name": "CSS3",               "category": "frontend", "level": 90, "order": 1 },
+    { "_id": "s3", "name": "JavaScript (ES6+)",  "category": "frontend", "level": 85, "order": 2 },
+    { "_id": "s4", "name": "React",              "category": "frontend", "level": 80, "order": 3 },
+    { "_id": "s5", "name": "Node.js",            "category": "backend",  "level": 80, "order": 0 },
+    { "_id": "s6", "name": "Express",            "category": "backend",  "level": 78, "order": 1 },
+    { "_id": "s7", "name": "REST APIs",          "category": "backend",  "level": 80, "order": 2 },
+    { "_id": "s8", "name": "MongoDB",            "category": "database", "level": 78, "order": 0 },
+    { "_id": "s9", "name": "Mongoose",           "category": "database", "level": 75, "order": 1 },
+    { "_id": "s10","name": "SQL",                "category": "database", "level": 65, "order": 2 },
+    { "_id": "s11","name": "Adobe Photoshop",    "category": "design",   "level": 90, "order": 0 },
+    { "_id": "s12","name": "Adobe Illustrator",  "category": "design",   "level": 80, "order": 1 },
+    { "_id": "s13","name": "Git",                "category": "tools",    "level": 80, "order": 0 },
+    { "_id": "s14","name": "GitHub",             "category": "tools",    "level": 80, "order": 1 },
+    { "_id": "s15","name": "VS Code",            "category": "tools",    "level": 90, "order": 2 },
+    { "_id": "s16","name": "Postman",            "category": "tools",    "level": 75, "order": 3 }
+  ]
+}
