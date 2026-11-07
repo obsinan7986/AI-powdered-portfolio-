@@ -2,7 +2,7 @@
 
 > A production-ready MERN stack portfolio with dark/light themes, AI chat widget, admin dashboard, and full REST API.
 
-**Live:** https://obsa-portfolio.vercel.app &nbsp;|&nbsp; **API:** https://portfolio-api.onrender.com
+**Live:** https://ai-powdered-portfolio-iota.vercel.app/ &nbsp;|&nbsp; **API:** https://ai-powdered-portfolio.onrender.com
 
 ---
 
@@ -78,7 +78,7 @@ portfolio/
 
 ### 1. Clone
 ```bash
-git clone https://github.com/obsinan7986/portfolio.git
+git clone https://github.com/obsinan7986/AI-powdered-portfolio-.git
 cd portfolio
 ```
 
